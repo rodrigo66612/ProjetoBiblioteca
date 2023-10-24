@@ -14,6 +14,15 @@ namespace Biblioteca.Controllers
         [HttpPost]
         public IActionResult Cadastro(Livro l)
         {
+            //aviso
+           
+           
+
+            if(!string.IsNullOrEmpty(l.Titulo) && !string.IsNullOrEmpty(l.Autor) && l.Ano != 0)
+            {
+
+            
+            //aviso/
             LivroService livroService = new LivroService();
 
             if(l.Id == 0)
@@ -26,10 +35,16 @@ namespace Biblioteca.Controllers
             }
 
             return RedirectToAction("Listagem");
+            //aviso
+            } else {
+                ViewData["mensagem"] = "preencha todos os campos";
+                return View();
+            }
+            //aviso/
         }
-
-        public IActionResult Listagem(string tipoFiltro, string filtro)
-        {
+            //aviso
+        public IActionResult Listagem(string tipoFiltro, string filtro, string itensPorPagina, int NumDaPagina, int PaginaAtual)
+        { //aviso/
             Autenticacao.CheckLogin(this);
             FiltrosLivros objFiltro = null;
             if(!string.IsNullOrEmpty(filtro))
@@ -38,6 +53,12 @@ namespace Biblioteca.Controllers
                 objFiltro.Filtro = filtro;
                 objFiltro.TipoFiltro = tipoFiltro;
             }
+             //aviso
+             ViewData["livrosPorPagina"] = (string.IsNullOrEmpty(itensPorPagina) ? 10 : int.Parse(itensPorPagina));
+             ViewData["PaginaAtual"] = (PaginaAtual != 0 ? PaginaAtual : 1);
+             //aviso/
+
+            
             LivroService livroService = new LivroService();
             return View(livroService.ListarTodos(objFiltro));
         }

@@ -14412,6 +14412,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\rodri\\OneDrive\\Área de Trabalho\\Biblioteca\\Views\\Usuarios\\administrador.cshtml",
+      "TargetPath": "Views\\Usuarios\\administrador.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\rodri\\OneDrive\\Área de Trabalho\\Biblioteca\\Views\\Home\\Login.cshtml",
       "TargetPath": "Views\\Home\\Login.cshtml",
       "FileKind": "mvc"
@@ -14437,6 +14442,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\rodri\\OneDrive\\Área de Trabalho\\Biblioteca\\Views\\Usuarios\\EditarUsuario.cshtml",
+      "TargetPath": "Views\\Usuarios\\EditarUsuario.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\rodri\\OneDrive\\Área de Trabalho\\Biblioteca\\Views\\Livro\\Edicao.cshtml",
       "TargetPath": "Views\\Livro\\Edicao.cshtml",
       "FileKind": "mvc"
@@ -14457,6 +14467,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\rodri\\OneDrive\\Área de Trabalho\\Biblioteca\\Views\\Usuarios\\RegistrarUsuarios.cshtml",
+      "TargetPath": "Views\\Usuarios\\RegistrarUsuarios.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\rodri\\OneDrive\\Área de Trabalho\\Biblioteca\\Views\\Livro\\Cadastro.cshtml",
       "TargetPath": "Views\\Livro\\Cadastro.cshtml",
       "FileKind": "mvc"
@@ -14469,6 +14484,11 @@
     {
       "FilePath": "c:\\Users\\rodri\\OneDrive\\Área de Trabalho\\Biblioteca\\Views\\Shared\\_CookieConsentPartial.cshtml",
       "TargetPath": "Views\\Shared\\_CookieConsentPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\rodri\\OneDrive\\Área de Trabalho\\Biblioteca\\Views\\Usuarios\\ListaDeUsuarios.cshtml",
+      "TargetPath": "Views\\Usuarios\\ListaDeUsuarios.cshtml",
       "FileKind": "mvc"
     },
     {

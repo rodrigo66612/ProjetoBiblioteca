@@ -51,3 +51,7 @@ C:\Users\rodri\OneDrive\Área de Trabalho\Biblioteca\obj\Debug\netcoreapp3.1\sta
 C:\Users\rodri\OneDrive\Área de Trabalho\Biblioteca\obj\Debug\netcoreapp3.1\Biblioteca.dll
 C:\Users\rodri\OneDrive\Área de Trabalho\Biblioteca\obj\Debug\netcoreapp3.1\Biblioteca.pdb
 C:\Users\rodri\OneDrive\Área de Trabalho\Biblioteca\obj\Debug\netcoreapp3.1\Biblioteca.genruntimeconfig.cache
+C:\Users\rodri\OneDrive\Área de Trabalho\Biblioteca\obj\Debug\netcoreapp3.1\Razor\Views\Usuarios\administrador.cshtml.g.cs
+C:\Users\rodri\OneDrive\Área de Trabalho\Biblioteca\obj\Debug\netcoreapp3.1\Razor\Views\Usuarios\EditarUsuario.cshtml.g.cs
+C:\Users\rodri\OneDrive\Área de Trabalho\Biblioteca\obj\Debug\netcoreapp3.1\Razor\Views\Usuarios\ListaDeUsuarios.cshtml.g.cs
+C:\Users\rodri\OneDrive\Área de Trabalho\Biblioteca\obj\Debug\netcoreapp3.1\Razor\Views\Usuarios\RegistrarUsuarios.cshtml.g.cs
